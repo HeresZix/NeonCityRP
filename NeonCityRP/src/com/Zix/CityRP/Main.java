@@ -107,6 +107,7 @@ public class Main extends JavaPlugin implements Listener {
 		    public void run()
 		    {
 		        if(world.getTime() == 0){
+		        	// Paychecks
 		        	for(Player p : Bukkit.getOnlinePlayers()){
 		        		String uuid = p.getUniqueId().toString();
 		        		if(getConfig().getString(uuid + ".job").equals("civ")){
