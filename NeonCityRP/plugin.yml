@@ -1,0 +1,8 @@
+name: CityRP
+version: 1.0.0
+author: Zix
+main: com.Zix.CityRP.Main
+commands:
+  stopbanking:
+  deposit:
+  withdraw:
